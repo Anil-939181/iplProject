@@ -4216,7 +4216,7 @@ function Home(){
             {/* <h2>{team1SName}vs{team2SName}{" "+" " },{key},{status}</h2> */}
             <div className="bg-gray-800 text-white text-sm p-3 flex flex-col gap-2">
                 <div  className="flex justify-between">
-                    <p>{matchFormat}{matchDesc}</p>
+                    <p>{matchFormat}{" "}{matchDesc}</p>
                     <p>{date}</p>
                 </div>
                 <div className="flex flex-col gap-2">
