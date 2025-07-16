@@ -1917,7 +1917,7 @@ try {
                     
                     <span className='flex gap-1 mt-2 sm:gap-2 justify-center'>{form.reverse().map(data=>(
                         
-                        data==="W"?<img src="win.png" alt="" className='w-4 h-4  sm:w-6 h-6' />:<img src="loss.png" alt="" className='w-3 h-3  sm:w-6 h-6' />
+                        data==="W"?<img src="/win.png" alt="Win" className='w-4 h-4  sm:w-6 h-6' />:<img src="/loss.png" alt="Loss" className='w-3 h-3  sm:w-6 h-6' />
                     ))}</span>
                 </tr>
                 
