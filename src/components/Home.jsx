@@ -4248,10 +4248,6 @@ function Home(){
                     
 
                 </div>
-               {console.log(status.split(" won")[0].toLowerCase())}
-               {console.log(team1LongName.toLowerCase())}
-               {console.log(team1SName)
-               }
                
                
                 <p>
